@@ -1,19 +1,182 @@
 <resources>
     <string name="app_name">Porto Tour Guide</string>
+    <string name="place_name">placeName</string>
+    <string name="place_address">placeAddress</string>
+    <string name="place_description">placeDescription</string>
+    <string name="place_image_id">imageResourceId</string>
+    <string name="place_map">placeMap</string>
+    <string name="map">MAP</string>
+    //Top Attractions
+    <string name="category_attractions">Attractions</string>
     //Cais de Gaia
     <string name="attraction_cais_de_gaia">Cais de Gaia</string>
     <string name="cais_de_gaia_address"> Cais de Gaia, 4400&#8211;161</string>
     <string name="desc_cais_de_gaia">The views from Cais de Gaia are perhaps the longest-lasting images of Oporto for visitors. It\'s impossible not to stand in awe at the city\'s stunning skyline, whose impact is further enhanced by the picturesque boats that stand in front, and the soaring double-decker Dom Luis Bridge. Breathe in the atmosphere from the several cafes and restaurants at the riverfront (Bogani Café is especially recommended for a drink and chill-out sounds), and then visit the terracotta-topped Port Wine warehouses that stand behind them.</string>
+    <string name="cais_de_gaia_geolocation">41.139381, -8.621573?q=Cais+de+Gaia</string>
     //Serralves Museum
     <string name="attraction_serralves_museum">Serralves Museum</string>
     <string name="serralves_museum_address">R. Dom João de Castro 210, 4150&#8211;417 Porto</string>
     <string name="desc_serralves_museum">This world&#8211;class museum displays cutting-edge international contemporary art in a striking minimalist building by Pritzker Prize-winning architect Alvaro Siza Vieira. Like the Guggenheim, there is no collection permanently on display, with temporary exhibitions taking up the entire space.The eighteen hectares of grounds also contain natural farmland, and are dotted with modern sculptures.</string>
+    <string name="serralves_museum_geolocation">41.160000, -8.65973?q=Museu+de+Serralves</string>
     //Casa da Música
     <string name="attraction_casa_da_musica">Casa da Música</string>
     <string name="casa_da_musica_address">Av. da Boavista 604&#8211;610, 4149&#8211;071 Porto</string>
     <string name="desc_casa_da_musica">This twelve-storey, irregular-shaped building was designed by world-renowned architect Rem Koolhaas exclusively for musical performances. It opened in 2005 and for admirers of architectural marvels it justifies a visit to Oporto on its own. The striking white concrete structure is an inventive building. Inside the 1,300-seat auditorium of perfect acoustics is a baroque organ pinned to the wall, and the VIP room has hand-painted blue tiles, blending contemporary minimalism with traditional touches. </string>
+    <string name="casa_da_musica_geolocation">41.160850, -8.628261?q=Casa+da+Música</string>
     //São Francisco Church
+    <string name="attraction_sao_francisco_church">São Francisco Church</string>
+    <string name="sao_francisco_church_address">Rua do Infante D. Henrique, 4050&#8211;297 Porto</string>
+    <string name="desc_sao_francisco_church">What from outside looks like an ordinary 14th century Gothic and Baroque construction, has the most extraordinary church interior in Oporto and unquestionably one of the most fabulously opulent in all of Europe. There is a museum housed in the catacombs below consisting of artifacts from the former monastery. </string>
+    <string name="sao_francisco_geolocation">41.141137, -8.615732?q=Igreja+Monumento+de+São+Francisco</string>
+    //Cais da Ribeira
+    <string name="attraction_cais_da_ribeira">Cais da Ribeira</string>
+    <string name="cais_da_ribeira_address">Cais da Ribeira, Porto</string>
+    <string name="desc_cais_da_ribeira">The alluring district of Ribeira is made up of medieval streets and seedy alleyways. It is a crumbling but fascinating place, ending at a riverfront square ("Praça da Ribeira"). Wth photogenic traditional boats floating at the quayside overlooked by colorful ancient houses, this is the most picturesque spot in the city and the place everyone loves. UNESCO did too, and declared it a World Heritage Site.</string>
+    <string name="cais_da_ribeira_geolocation">41.140846, -8.611258?q=Cais+da+Ribeira</string>
+    //Sé Catedral
+    <string name="attraction_se_catedral">Sé Catedral</string>
+    <string name="se_catedral_address">Terreiro da Sé, 4050&#8211;573 Porto</string>
+    <string name="desc_se_catedral">Oporto\'s austere fortress-like cathedral is where Prince Henry the Navigator was baptised and where King John I married the English Princess Philippa of Lancaster in the 14th century. The building has its origins in the 12th century, although it underwent many alterations over time.Before going inside, contemplate the fine views over the rooftops of old Oporto from the terrace, and admire the grandiose three storey façade of the Episcopal Palace whose interior can not be visited.</string>
+    <string name="se_catedral_geolocation">41.143052, -8.611172?q=Sé+Catedral</string>
     //Torre dos Clérigos
     <string name="attraction_torre_clérigos">Torre dos Clérigos</string>
     <string name="torre_clérigos_address">R. de São Filipe de Nery, 4050&#8211;546 Porto</string>
+    <string name="desc_torre_dos_clerigos">Clérigos church tower was the tallest structure in Portugal when completed in 1763, and as the main feature of the city\'s skyline, ships used it as a guide when coming into Cais da Ribeira. Opposite the tower is Cordoaria Gardens and an imposing Neoclassical and Pombaline building that is the city\'s former prison. The ground floor houses a photography museum with both permanent and temporary exhibitions.From here it is possible to the monumental Santo Antonio Hospital, classified as a national monument.</string>
+    <string name="torre_clerigos_geolocation">41.145662, -8.614627?q=Igreja+dos+Clérigos</string>
+    //Palacio da Bolsa
+    <string name="attraction_palacio_da_bolsa">Palácio da Bolsa</string>
+    <string name="palacio_da_bolsa_address">R. de Ferreira Borges, 4050&#8211;253 Porto</string>
+    <string name="desc_palacio_da_bolsa">This pompous 19th-century building with a vast Neoclassical façade is the former stock exchange that was built to impress and earn the credibility of European investors. Inside it could be mistaken for a royal place, especially the ornate Arab Room, an oval chamber that attempted to copy Granada\'s Alhambra Palace.</string>
+    <string name="palacio_da_bolsa_geolocation">41.141371, -8.615689?q=Palácio+da+Bolsa</string>
+    //Dom Luis Bridge
+    <string name="attraction_dom_luis_bridge">Dom Luis Bridge</string>
+    <string name="dom_luis_bridge_address">Ponte Luís I, Porto</string>
+    <string name="desc_dom_luis_bridge">Oporto\'s iconic bridge opened in 1886, when it held the record for the longest iron arch in the world. Today the metro crosses the upper level, while the lower level is used by cars and pedestrians to cross the river between the center of Oporto and the spectacular city views and port wine warehouses of the municipality of Vila Nova de Gaia. </string>
+    <string name="dom_luis_bridge_geolocation">41.140185, -8.609427?q=Ponte+D.Luís+I</string>
+    //Soares dos Reis Museum
+    <string name="attraction_soares_dos_reis_museum">Soares dos Reis Museum</string>
+    <string name="soares_dos_reis_museum_address"> R. de Dom Manuel II 44, 4050&#8211;014 Porto</string>
+    <string name="desc_soares_dos_reis_museum">This was Portugal\'s first designated national museum. It was founded in 1833 to showcase works of art from dissolved monasteries and convents, including a valuable collection of paintings, glass, ceramics and jewelry (especially noteworthy is an 18th century breast piece studded with precious stones). One of the highlights is the huge "Pedra de Eiró", a rock taken from a threshing ground by the Douro River, engraved with spiral motifs that are typical of western European megalithic art.</string>
+    <string name="soares_dos_reis_museum_geolocation">41.147931, -8.621649?q=Museu+Soares+Dos+Reis</string>
+
+    //Top Experiences
+    <string name="category_experiences">Experiences</string>
+    //Lello Book Store
+    <string name="experience_lello_book_store">Lello Book Store</string>
+    <string name="lello_book_store_address">R. das Carmelitas 144, 4050&#8211;161 Porto</string>
+    <string name="desc_lello_book_store">This is one of the most beautiful book shops in the world. You\'ll confirm that yourself as you go up its beautiful staircase and take a look at its stained glass ceiling. Naturally most books are in Portuguese, but there is also a selection of English and other language publications.</string>
+    <string name="lello_geolocation">41.147059, -8.614818?q=Livraria+Lello</string>
+    //Majestic Café
+    <string name="experience_majesctic_cafe">Majestic Café</string>
+    <string name="majestic_cafe_address">Rua Santa Catarina 112, 4000&#8211;442 Porto</string>
+    <string name="desc_majestic_cafe">This Oporto landmark is an essential stop in the city. It is known throughout Portugal, and is also listed among Europe\'s top historical coffeehouses. It was born with the name "Elite," which was soon changed to "Majestic." Its beautiful decoration justifies the second name: mirrors, cherubs, chandeliers, marble, and wood.</string>
+    <string name="majestic_geolocation">41.147400, -8.606547?q=Café+Majestic</string>
+    //Sao Bento Station
+    <string name="experience_sao_bento_station">São Bento Station</string>
+    <string name="sao_bento_station_address">Estação de São Bento Porto, 4000&#8211;069 Porto</string>
+    <string name="desc_sao_bento_station">There are approximately 20,000 azulejo tiles on the walls of this station, dating from 1905&#8211;1916, and were composed by Jorge Colaço, an important painter of azulejo of the time. On the top of the north wall, there is a large composition that covers the entire wall, depicting the Battle of Valdevez (1140), with two groups of antagonists and other knights in the background.</string>
+    <string name="sao_bento_geolocation">41.145769, -8.610548?q=Estação+São+Bento</string>
+    //Bolhão Market
+    <string name="experience_bolhao_market">Bolhão Market</string>
+    <string name="bolhao_market_address">R. Formosa 214, 4000 Porto</string>
+    <string name="desc_bolhao_market">Located in the heart of the city, this noisy and exuberant market is a sight not to be missed. It\'s found in a two-tier covered building and sells everything from fresh fruit to household goods. Especially entertaining is listening to the flamboyant fishwives hawking the latest catch in true Oporto spirit, an image that has made this market famous all over Portugal.</string>
+    <string name="bolhao_geolocation">41.149622, -8.607048?q=Mercado+do+Bolhão</string>
+    //Foz
+    <string name="experience_foz">Foz</string>
+    <string name="foz_address">Foz do Rio Douro</string>
+    <string name="desc_foz">Foz is the most sophisticated district of Oporto, with a multitude of ocean-front bars, cafés, clubs and restaurants. You may begin a walk by the waterfront at Jardim do Passeio Alegre on Avenida D. Carlos I. This is an elegant garden entered through two 19th century obelisks and surrounded by palm trees, various sculptures, two mini-golf courses, and a bandstand that hosts philharmonic concerts during the summer.After the 3km of beach, you reach Castelo do Queijo, a fortress dating from 1661. From the fortress you can walk to the enormous Parque da Cidade, the biggest park in Oporto.</string>
+    <string name="foz_geolocation">41.152361, -8.678466?q=Foz</string>
+    //The monumental heart of the city
+    <string name="experience_avenida_dos_aliados">Avenida dos Aliados</string>
+    <string name="avenida_dos_aliados_address">Avenida dos Aliados, Baixa do Porto</string>
+    <string name="desc_avenida_dos_aliados">The imposing Avenida dos Aliados is the heart of the city, a sloping boulevard lined with grand buildings and a central promenade. Most of the buildings are hotels or main branches of the country\'s major banks, while the central promenade used to be a garden but was remodelled in 2006 by renowned architect Alvaro Siza Vieira who also designed the city\'s Serralves Museum. At the top of the avenue stands the Town Hall, a palatial building with a tall bell tower (70m high). Made of granite and marble, its design was influenced by municipal architecture of Flanders and France. In front of the building is a modernist statue of Portuguese writer Almeida Garrett. At the other end of the avenue is Praça da Liberdade, a square adorned with a statue of King Pedro IV on a horse.</string>
+    <string name="avenida_dos_aliados_geolocation">41.148603, -8.610789?q=Avenida+dos+Aliados</string>
+    //Crystal Palace Gardens
+    <string name="experience_crystal_palace_gardens">Crystal Palace Gardens</string>
+    <string name="crystal_palace_gardens_address">R. de Entre&#8211;Quintas 20, 4050&#8211;240 Porto</string>
+    <string name="desc_crystal_palace_gardens">This beautifully landscaped park is dominated by a huge domed pavilion built in 1956 which replaced the 19th century iron-and-glass "Crystal Palace." Today\'s pavilion serves as a venue for concerts and sporting events. It is surrounded by a lake, flowerbeds, and roaming peacocks, all overlooking the Douro River, of which there are superb views.</string>
+    <string name="crystal_palace_gardens_geolocation">41.148251, -8.625616?q=Jardins+do+Palácio+de+Cristal</string>
+
+    //Places to Stay
+    <string name="category_hotels">Hotels</string>
+    //The Yeatman
+    <string name="hotel_the_yeatman">The Yeatman</string>
+    <string name="the_yeatman_address">Rua do Choupelo, 4400&#8211;088 Vila Nova de Gaia</string>
+    <string name="desc_the_yeatman">This wine hotel\’s luxury spa has a large indoor pool and hot tub offering panoramic views of Oporto. Each bright room opens onto a spacious, private terrace furnished with sun loungers.Stylish, dark wood headboards and elegant ottomans are among the chic furnishings fitted in each of The Yeatman’s luxurious rooms. Rooms also include a flat-screen TV and minibar. Bathrooms are equipped with luxurious skincare products from the Caudalie skincare range.Conveniently located in Vila Nova de Gaia, Yeatman hotel is only a 5-minute walk from General Torres Station and a 10-minute walk from the Douro River.</string>
+    <string name="the_yeatman_geolocation">41.133572, -8.613022?q=The+Yeatman</string>
+    //Palácio das Cardosas
+    <string name="hotel_palacio_das_cardosas">Palácio das Cardosas</string>
+    <string name="palacio_das_cardosas_address"> Praça da Liberdade 25, 4000&#8211;322 Porto</string>
+    <string name="desc_palacio_das_cardosas">Featuring high ceilings, Palacio\’s stylish rooms have flat-screen TVs. Marble bathrooms include a separate bathtub and walk-in shower. The on-site spa has 3 treatment rooms and a sauna. It is less than a 2-minute walk from São Bento Metro Station and just under half a mile from the UNESCO World Heritage Ribeira area and the City Market Bolhão. Crossing the D. Luis I Bridge, just over half a mile away, guests can visit the famous Port Wine Cellars.</string>
+    <string name="palacio_das_cardosas_geolocation">41.146103, -8.611503?q=Palácio+Das+Cardosas</string>
+    //Pousada do Porto
+    <string name="hotel_pousada_do_porto">Pousada do Porto</string>
+    <string name="pousada_do_porto_address">Estrada Nacional 108, 206, 4300&#8211;316 Porto</string>
+    <string name="desc_pousada_do_porto">This property is a 10-minute walk from the beach. Overlooking Douro River in Porto, the 5-star Palácio Do Freixo is set in a restored 18th-century Baroque building. It offers aristocratic public areas with stately architecture, combined with modern rooms with flat-screen TV. Rooms at Pousada Do Porto are spacious, air-conditioned and have a separate seating area. Bathrooms include luxury amenities and a hairdryer. Some rooms offer Douro River views. The hotel is situated 2.5 km from the Dolce Vita Shopping Area and 1 km from Campanhã Train Station.</string>
+    <string name="pousada_do_porto_geolocation">41.144019, -8.575523?q=Pousada+do+Porto</string>
+    //Pestana Porto Hotel
+    <string name="hotel_pestana_porto_hotel">Pestana Vintage Porto</string>
+    <string name="pestana_porto_hotel_address">Praça da Ribeira, nº1, 4050&#8211;513 Porto</string>
+    <string name="desc_pestana_porto_hotel">The 5-star Pestana Vintage Porto Hotel and World Heritage Site is romantically situated along the Douro River, right on the historic Ribeira Square. All guest rooms in this 16th-century building have a spacious bathroom. The rooms of the Hotel have double-glazed windows and a flat-screen TV. From the Pestana Porto, cruises on the River Douro depart right in front of the hotel. The Torre dos Clérigos Bell Tower and the Porto Cathedral are less than a 10-minute stroll away.</string>
+    <string name="pestana_porto_geolocation">41.140599, -8.613123?q=Pestana+Vintage+Porto+Hotel</string>
+    //Hotel Teatro
+    <string name="hotel_hotel_teatro">Hotel Teatro</string>
+    <string name="hotel_teatro_address">R. de Sá da Bandeira 84, 4000&#8211;427 Porto</string>
+    <string name="desc_hotel_teatro">Located in the heart of Porto, the 4-star Hotel Teatro &#8211; Design Hotels is within a 5-minute walk from some of the city\’s main attractions like Lello Bookshop, Clérigos Tower and Porto Coliseum. The São Bento train and metro stations are within a 3-minute walk and the UNESCO World Heritage Ribeira area is 750 metres away. Across the Douro River, 1,3 km away, guests may visit the Port Wine Cellars. The pedestrian Santa Catarina Street is just 250 metres away and features various brand stores and the famous Café Majestic.</string>
+    <string name="hotel_teatro_geolocation">41.146909, -8.609193?q=Hotel+Teatro</string>
+    //Flores Village
+    <string name="hotel_flores_village">Flores Village</string>
+    <string name="flores_village_address">R. das Flores 139, 4420&#8211;266 Porto</string>
+    <string name="desc_flores_village">In the heart of Porto, Flores Village Hotel and Spa is set in an 18th century historic building offers a complete spa center with a sauna and an indoor pool. Guests can easily visit some of the most iconic landmarks of the city including the Clérigos Tower and the Lello Bookstore, both just a 5-minute walk from the hotel. The World Heritage Ribeira area with its restaurants, bars and cafes is just over a quarter mile away and the São bento Train Station is a mere 240 yards away.</string>
+    <string name="flores_village_geolocation">41.144597, -8.612888?q=Flores+Village+Hotel</string>
+    //Vitoria village
+    <string name="hotel_vitoria_village">Vitoria Village</string>
+    <string name="vitoria_village_address">R. das Flores 139, Porto</string>
+    <string name="desc_vitoria_village">This charming hotel, in Porto\’s city centre, has a lush, green garden and a rooftop terrace. The contemporary apartments feature flat-screen TVs and marble bathrooms. Vitoria Village is located a few steps from Porto Cathedral and the University of Porto. Sao Bento Railway and Metro Stations are 400 metres away, and provide links to Porto and the surrounding region.</string>
+    <string name="vitoria_village_geolocation">41.144597, -8.612888?q=Vitoria+Village</string>
+    //Pensão Favorita
+    <string name="hotel_pensao_favorita">Pensão Favorita</string>
+    <string name="pensao_favorita_address">Rua de Miguel Bombarda 267, 4050&#8211;381 Porto</string>
+    <string name="desc_pensao_favorita">This hotel is located in a restored historical building in Porto city centre. The hotel features free internet access, massage facilities and a sun terrace. The hotel is 200 meters from the Museu Nacional De Soares Dos Reis and less than a 10-minute walk from the Aliados Metro Station.</string>
+    <string name="pensao_favorita_geolocation">41.149819, -8.620051?q=Pensão+Favorita</string>
+
+    //Gastronomy
+    <string name="category_gastronomy">Gastronomy</string>
+    <string name="francesinha">Francesinha</string>
+    <string name="francesinha_restaurante_capa_negra">Restaurante Capa Negra</string>
+    <string name="capa_negra_address">Rua do Campo Alegre 191, 4150&#8211;177 Porto</string>
+    <string name="capa_negra_geolocation">41.153264, -8.630546?q=Restaurante+Capa+Negra+II</string>
+    <string name="francesinha_tappas_caffe">Tappas Caffé</string>
+    <string name="tappas_caffe_address">7674 F, Estrada da Circunvalação, 4200&#8211;162 Porto</string>
+    <string name="tappas_caffe_geolocation">41.183684, -8.600471?q=Tappas+Caffé+Porto</string>
+    <string name="francesinha_cafe_aviz">Café Aviz</string>
+    <string name="cafe_aviz_address">R. de Avis 27, Porto</string>
+    <string name="cafe_aviz_geolocation">41.147828, -8.613350?q=Café+Aviz</string>
+    <string name="francesinha_lado_b">Lado B</string>
+    <string name="lado_b_address">R. de Passos Manuel 190, 4000&#8211;382 Porto</string>
+    <string name="lado_b_geolocation">41.146656, -8.605478?q=Lado+B+Café</string>
+
+    <string name="bacalhau_a_gomes_de_sa">Bacalhau à Gomes de Sá</string>
+    <string name="restaurante_abadia_do_porto">Restaurante Abadia do Porto</string>
+    <string name="abadia_do_porto_address">R. do Ateneu Comercial do Porto 22, 4000 Porto</string>
+    <string name="abadia_do_porto_geolocation">41.148037, -8.607718?q=Restaurante+Abadia+do+Porto</string>
+    <string name="restaurante_casa_do_pastel">Casa Portuguesa do Pastel de Bacalhau</string>
+    <string name="casa_do_pastel_address">R. Campo dos Mártires da Pátria 108, 4050&#8211;367 Porto</string>
+    <string name="casa_do_pastel_geolocation">41.145569, -8.614924?q=Casa+Portuguesa+do+Pastel+de+Bacalhau</string>
+
+    <string name="tripas_a_moda_do_porto">Tripas à Moda do Porto</string>
+    <string name="restaurante_lider">Restaurante Líder</string>
+    <string name="restaurante_lider_address">Alameda Eça de Queirós 120, 4200 Porto</string>
+    <string name="restaurante_lider_geolocation">41.162794, -8.594824?q=Restaurante+Líder</string>
+    <string name="restaurante_o_gaveto">O Gaveto</string>
+    <string name="o_gaveto_address">R. Roberto Ivens 826, 4450&#8211;250 Matosinhos</string>
+    <string name="o_gaveto_geolocation">41.180305, -8.690497?q=O+Gaveto</string>
+    <string name="restaurante_o_pombeiro">O Pombeiro</string>
+    <string name="o_pombeiro_address">R. do Cap. Pombeiro 218, Porto</string>
+    <string name="o_pombeiro_geolocation">41.166291, -8.612117?q=O+Pombeiro</string>
+
+    <string name="caldo_verde">Caldo Verde</string>
+    <string name="restaurante_essencia_lusa">Essência Lusa</string>
+    <string name="essencia_lusa_address">R. de São João 85, 4050&#8211;414 Porto</string>
+    <string name="essencia_lusa_geolocation">41.142079, -8.613914?q=Essência+Lusa</string>
 </resources>
